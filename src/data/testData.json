@@ -1,0 +1,68 @@
+{
+  "status": 1,
+  "message": "OK",
+  "pair": "BNBUSDT",
+  "timeframe": "30m",
+  "data": [
+    {
+      "start_time": 1680709613755,
+      "end_time": 1680709603755,
+      "buy_usd": 1300.30,
+      "sell_usd": 500.50
+    },
+    {
+      "start_time": 1680709593755,
+      "end_time": 1680709583755,
+      "buy_usd": 2300.30,
+      "sell_usd": 3500.50
+    },
+   {
+      "start_time": 1680709613755,
+      "end_time": 1680709603755,
+      "buy_usd": 1300.30,
+      "sell_usd": 500.50
+    },
+   {
+      "start_time": 1680709593755,
+      "end_time": 1680709583755,
+      "buy_usd": 2300.30,
+      "sell_usd": 3500.50
+    },
+   {
+      "start_time": 1680709613755,
+      "end_time": 1680709603755,
+      "buy_usd": 1300.30,
+      "sell_usd": 500.50
+    },
+    {
+      "start_time": 1680709593755,
+      "end_time": 1680709583755,
+      "buy_usd": 2300.30,
+      "sell_usd": 3500.50
+    },
+   {
+      "start_time": 1680709613755,
+      "end_time": 1680709603755,
+      "buy_usd": 1300.30,
+      "sell_usd": 500.50
+    },
+    {
+      "start_time": 1680709593755,
+      "end_time": 1680709583755,
+      "buy_usd": 2300.30,
+      "sell_usd": 3500.50
+    },
+    {
+      "start_time": 1680709613755,
+      "end_time": 1680709603755,
+      "buy_usd": 1300.30,
+      "sell_usd": 500.50
+    },
+    {
+      "start_time": 1680709593755,
+      "end_time": 1680709583755,
+      "buy_usd": 2300.30,
+      "sell_usd": 3500.50
+    }
+  ]
+}

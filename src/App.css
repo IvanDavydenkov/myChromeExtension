@@ -1,0 +1,31 @@
+.ex_list {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+/*.ex_list__item {*/
+/*    border: 1px solid darkslategrey;*/
+/*}*/
+.ex_list__txt {
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ex_container {
+    padding: 10px
+}
+.ex_form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+}
+.ex_form__button {
+    padding: 5px;
+    align-self: end;
+}
+.ex_form__label {
+    display: flex;
+    flex-direction: column;
+}
