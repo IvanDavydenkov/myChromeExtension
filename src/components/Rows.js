@@ -2,7 +2,7 @@ import Row from "./Row";
 import {useEffect, useState} from "react";
 
 // const API_URL = 'https://jsonplaceholder.typicode.com/posts'
-const API_URL = '../data/testData.json'
+const API_URL = '../data/db.json'
 
 const Rows = () => {
 	
