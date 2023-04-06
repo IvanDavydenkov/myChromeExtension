@@ -1,11 +1,16 @@
 import {useState} from "react";
+import React from "react";
+import {currentUrl} from "../index";
+
 
 const Form = () => {
 	const [data, setData] = useState({ interval: '', rows: '' })
 	
 	function handleFormSubmit(event) {
 		event.preventDefault()
-		const pair = document
+		const result ={...data}
+		if(currentUrl==='https://finandy.com'){
+			const pair = document
 				.body
 				.querySelectorAll('.xc-selected')[1]
 				.querySelectorAll('span')[1]
@@ -13,8 +18,20 @@ const Form = () => {
 				.split('.')
 				.join('')
 				.toLowerCase()
-		const result = {...data}
-		result.pair = pair
+			result.pair = pair
+		}
+		if(currentUrl==='https://www.binance.com'){
+			const pair = document
+				.body
+				.querySelector('h1')
+				.textContent
+				.split('/')
+				.join('')
+				.toLowerCase()
+			
+			result.pair = pair
+		}
+		
 		console.log(result)
 	}
 	
