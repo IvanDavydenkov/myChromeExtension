@@ -72,6 +72,546 @@ const Rows = () => {
 				end_time: 1680709583755,
 				buy_usd: 2300.30,
 				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
+			},
+			{
+				start_time: 1680709613755,
+				end_time: 1680709603755,
+				buy_usd: 1300.30,
+				sell_usd: 500.50
+			},
+			{
+				start_time: 1680709593755,
+				end_time: 1680709583755,
+				buy_usd: 2300.30,
+				sell_usd: 3500.50
 			}
 		]
 	};
@@ -94,12 +634,15 @@ const Rows = () => {
 	
 	return (
 		<ul className='ex_list'>
-			<li className='ex_list__item'>
-				<p className='ex_list__txt'>delta</p>
-				<p className='ex_list__txt'>Sold</p>
-				<p className='ex_list__txt'>Bought</p>
-			</li>
 			{isLoading? <h1>Loading</h1>:(info.map((el,index)=>{
+				if(index%10===0){
+					return (<li className='ex_list__item'>
+						<p className='ex_list__txt'>time</p>
+						<p className='ex_list__txt'>delta</p>
+						<p className='ex_list__txt'>Sold</p>
+						<p className='ex_list__txt'>Bought</p>
+					</li>)
+				}
 					return <Row {...el} key={index}/>
 			}))
 			}

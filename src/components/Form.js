@@ -8,9 +8,10 @@ const Form = () => {
 	
 	function handleFormSubmit(event) {
 		event.preventDefault()
+		let pair
 		const result ={...data}
 		if(currentUrl==='https://finandy.com'){
-			const pair = document
+			pair = document
 				.body
 				.querySelectorAll('.xc-selected')[1]
 				.querySelectorAll('span')[1]
@@ -21,7 +22,7 @@ const Form = () => {
 			result.pair = pair
 		}
 		if(currentUrl==='https://www.binance.com'){
-			const pair = document
+				pair = document
 				.body
 				.querySelector('h1')
 				.textContent
@@ -31,7 +32,9 @@ const Form = () => {
 			
 			result.pair = pair
 		}
-		
+		const validate =()=>{
+			const intervalValue = data.interval.value
+		}
 		console.log(result)
 	}
 	
@@ -43,9 +46,11 @@ const Form = () => {
 				<label className="ex_form__label">
 					Set interval
 					<input className="ex_form__input"
+					       pattern='\d{0,3}[smhDWM]{1}'
 					       id="interval"
-					       type='number'
+					       type='text'
 					       value={data.interval}
+					       required={true}
 					       onChange={(event) => handleInputChange(event, 'interval')}/>
 				</label>
 				<label className="ex_form__label">
@@ -54,6 +59,9 @@ const Form = () => {
 					       id="rows"
 					       type='number'
 					       value={data.rows}
+					       required={true}
+					       min='1'
+					       max='100'
 					       onChange={(event) => {
 						handleInputChange(event, 'rows')
 					}} />
