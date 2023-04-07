@@ -25,7 +25,7 @@ function renderOn(selector){
   if (targetElement !== null) {
     targetElement.prepend(rootElement)
   } else {
-      renderOn()
+    renderOn()
   }
 }
 
@@ -40,7 +40,7 @@ if(currentUrl==='https://www.binance.com'){
 }
 
 
-  document.body.prepend(globalStyles);
+document.body.prepend(globalStyles);
 
 
 const root = ReactDOM.createRoot(rootElement);

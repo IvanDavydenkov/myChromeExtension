@@ -4,7 +4,7 @@ import React from "react";
 
 const Container = () => {
 	return (
-		<div className='ex_container'>
+		<div className='ex_container' id='ex_container'>
 			<Form/>
 			<Rows/>
 		</div>

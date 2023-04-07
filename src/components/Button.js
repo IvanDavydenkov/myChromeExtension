@@ -1,6 +1,9 @@
+import React from "react";
+import {AiOutlineDown} from "react-icons/ai";
+
 const Button = ({btnHandler}) => {
 	return (
-		<button type={"button"} onClick={btnHandler} className='ex_super-btn'>hide</button>
+		<AiOutlineDown onClick={btnHandler} className='ex_super-btn' id='ex_super-btn'/>
 	);
 };
 

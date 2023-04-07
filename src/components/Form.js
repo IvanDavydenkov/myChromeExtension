@@ -42,21 +42,22 @@ const Form = () => {
 		setData({ ...data, [name]: event.target.value })
 	}
 	return (
-			<form className="ex_form" onSubmit={handleFormSubmit}>
-				<label className="ex_form__label">
-					Set interval
+			<form className="ex_form" onSubmit={handleFormSubmit} id='ex_form'>
+				<label className="ex_form__label" id='ex_form__label-interval'>
+					
 					<input className="ex_form__input"
+					       id='ex_form__input-interval'
 					       pattern='\d{0,3}[smhDWM]{1}'
-					       id="interval"
+					       placeholder='interval'
 					       type='text'
 					       value={data.interval}
 					       required={true}
 					       onChange={(event) => handleInputChange(event, 'interval')}/>
 				</label>
-				<label className="ex_form__label">
-					Set rows
+				<label className="ex_form__label" id='ex_form__label-rows'>
 					<input className="ex_form__input"
-					       id="rows"
+					       id="ex_form__input-rows"
+					       placeholder='rows'
 					       type='number'
 					       value={data.rows}
 					       required={true}
@@ -66,7 +67,7 @@ const Form = () => {
 						handleInputChange(event, 'rows')
 					}} />
 				</label>
-				<button type="submit" className="ex_form__button">Submit</button>
+				<button type="submit" className="ex_form__button" id='ex_form__button'>Submit</button>
 			</form>
 	);
 };
