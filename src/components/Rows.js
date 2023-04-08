@@ -48,7 +48,7 @@ const Rows = () => {
             }
             return <Row {...el} key={index} />;
           }
-          return ("error of render");
+          return (console.log("no data"));
         }))
         }
       </ul>
