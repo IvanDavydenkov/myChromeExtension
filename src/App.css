@@ -35,6 +35,12 @@
     opacity: .8;
 }
 
+.isInteresting {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 #ex_form {
     display: flex;
     gap: 20px;

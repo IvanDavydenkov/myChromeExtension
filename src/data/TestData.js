@@ -1,3 +1,4 @@
+// export
 export const data = {
   status: 1,
   message: "OK",
@@ -610,3 +611,6 @@ export const data = {
     }
   ]
 };
+// data.data.reduce();
+
+

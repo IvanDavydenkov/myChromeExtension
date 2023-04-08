@@ -36,9 +36,9 @@ const Rows = () => {
             if (i === 0 || i % 9 === 0) {
               return (
                 <>
-                  <li className="ex_list__item" key={index}>
+                  <li className="ex_list__item">
                     <p className="ex_list__txt">time</p>
-                    <p className="ex_list__txt">delta</p>
+                    <p className={"ex_list__txt"}>delta</p>
                     <p className="ex_list__txt">Sold</p>
                     <p className="ex_list__txt">Bought</p>
                   </li>
@@ -48,13 +48,14 @@ const Rows = () => {
             }
             return <Row {...el} key={index} />;
           }
-          return (console.log("no data"));
+        return (console.log("no data"));
         }))
         }
       </ul>
       <Chart data={info} />
     </div>
   );
-};
-
-export default Rows;
+}
+  ;
+  
+  export default Rows;
