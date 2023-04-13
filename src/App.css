@@ -1,24 +1,3 @@
-.ex_list {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-auto-rows: auto;
-    gap: 10px;
-    list-style-type: none;
-    padding: 0;
-    max-width: 70vw;
-    overflow: auto;
-    margin: 0;
-    max-height: 25vh;
-}
-
-
-.ex_list__txt {
-    border: 1px solid darkslategrey;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
 #ex_container {
     max-height: 30vh;
     padding: 20px;
@@ -44,6 +23,7 @@
 #ex_form {
     display: flex;
     gap: 20px;
+    flex-direction: row;
     align-items: center;
     font-size: 24px;
 }
@@ -93,16 +73,45 @@
     border-radius: 5px;
 }
 
-.ex_main-box {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    gap: 5%;
-    align-items: flex-start;
+/*#ex_main-box {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    width: 100%;*/
+/*    justify-content: center;*/
+/*    gap: 5%;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+
+#ex_canvas {
+    max-width: 40% !important;
+    max-height: 25vh !important;
 }
 
-.ex_main-box > canvas {
-    max-width: 40%;
+
+#ex_content {
+    display: flex !important;
+    max-height: 25vh !important;
+    gap: 5vw !important;
+}
+
+#ex_list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: auto;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+    overflow: auto;
+    margin: 0;
     max-height: 25vh;
+}
+
+
+#ex_list__txt {
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
 }

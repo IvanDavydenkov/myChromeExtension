@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Button from "./components/Button";
 import Container from "./components/Container";
+import Form from "./components/Form";
 
 function App() {
   
@@ -11,10 +12,10 @@ function App() {
   };
   
   return (
-    <div>
+    <>
       <Button btnHandler={btnHandler} />
-      {active && <Container />}
-    </div>
+      {active && <Form />}
+    </>
   );
 }
 
