@@ -74,7 +74,6 @@ const Rows = ({ config }) => {
                   <Row {...el} key={index} />
                 </>
               );
-              
             }
             return <Row {...el} key={index} />;
           }
