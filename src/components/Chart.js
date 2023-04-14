@@ -40,7 +40,7 @@ const Chart = ({ config }) => {
               return normalizeTime(item.start_time);
             }));
             const dataX = (info.data.map(item => {
-              return Math.floor(Number(item.sell_usd) - Number(item.buy_usd));
+              return Math.floor(Number(item.buy_usd) - Number(item.sell_usd));
             }));
             const maxDataX = (
               Number(dataX.reduce((a, b) => {
@@ -89,8 +89,9 @@ const Chart = ({ config }) => {
       }
       
       const newIntervalId = setInterval(() => {
-        fetchData(config);
-      }, timeCalcToSeconds(interval));
+          fetchData(config);
+        },
+        (timeCalcToSeconds(interval) * 1) > 5000 ? 5000 : (timeCalcToSeconds(interval) * 1));
       setIntervalId(newIntervalId);
       
       

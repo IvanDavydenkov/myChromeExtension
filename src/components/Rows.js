@@ -27,8 +27,8 @@ const Rows = ({ config }) => {
         fetch(`https://domv.ada.art/orderbook/aggregate/${pair}/?limit=${limit}&interval=${interval}`)
           .then(response => response.json())
           .then(info => {
-            setInfo(info);
-            return info;
+            setInfo(info.data.reverse());
+            // return info;
           })
           .catch(error => setError(error.message))
           .finally(() => {
@@ -40,8 +40,11 @@ const Rows = ({ config }) => {
         clearInterval(intervalId);
       }
       const newIntervalId = setInterval(() => {
-        fetchData(config);
-      }, timeCalcToSeconds(interval));
+          fetchData(config);
+        },
+        (timeCalcToSeconds(interval) * 1) > 5000 ? 5000 : (timeCalcToSeconds(interval) * 1));
+      
+      
       setIntervalId(newIntervalId);
       
       return () => clearInterval(newIntervalId);
@@ -53,9 +56,12 @@ const Rows = ({ config }) => {
   
   if (error) {
     return (
-      <h2>
-        Error: {error} {`${API_URL.baseUrl}${API_URL.path}${API_URL.pair}?limit=${API_URL.limit}&interval=${API_URL.interval}`}
-      </h2>
+      <div>
+        <h2>
+          Error: {error} {`${API_URL.baseUrl}${API_URL.path}${API_URL.pair}?limit=${API_URL.limit}&interval=${API_URL.interval}`}
+        </h2>
+        <p>to fix you need to restart the application(minimize and expand, use the button above)</p>
+      </div>
     );
   }
   
@@ -65,7 +71,7 @@ const Rows = ({ config }) => {
         <h2>Loading</h2>
       ) : (
         
-        info.data.map((item, index) => {
+        info.map((item, index) => {
           if (item.buy_usd > 0 || item.sell_usd > 0) {
             ++i;
             if (i % 10 === 0) {

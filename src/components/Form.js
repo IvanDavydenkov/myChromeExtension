@@ -6,7 +6,7 @@ import Chart from "./Chart";
 
 
 const Form = () => {
-  const [data, setData] = useState({ interval: "", limit: "" });
+  const [data, setData] = useState({ interval: "1h", limit: "100" });
   const [submittedData, setSubmittedData] = useState(null);
   
   // const result = { ...data };
