@@ -18,6 +18,7 @@ const Rows = ({ config }) => {
   const [info, setInfo] = useState([]);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const [intervalId, setIntervalId] = useState(null);
   let i = 0;
   
   useEffect(() => {
@@ -35,13 +36,17 @@ const Rows = ({ config }) => {
           });
       };
       
-      const intervalId = setInterval(() => {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+      const newIntervalId = setInterval(() => {
         fetchData(config);
       }, timeCalcToSeconds(interval));
-      fetchData(config);
+      setIntervalId(newIntervalId);
       
-      return () => clearInterval(intervalId);
+      return () => clearInterval(newIntervalId);
     };
+    
     
     getDataView(config);
   }, [config]);
@@ -59,23 +64,19 @@ const Rows = ({ config }) => {
       {isLoading ? (
         <h2>Loading</h2>
       ) : (
-        info.data.map((el, index) => {
-          if (el.buy_usd > 0 || el.sell_usd > 0) {
-            i++;
-            if (i === 1 || i % 10 === 0) {
-              return (
-                <>
-                  <li className="ex_list__item" id={"ex_list__item"}>
-                    <p className="ex_list__txt" id={"ex_list__txt"}>time</p>
-                    <p className="ex_list__txt" id={"ex_list__txt"}>delta</p>
-                    <p className="ex_list__txt" id={"ex_list__txt"}>Sold</p>
-                    <p className="ex_list__txt" id={"ex_list__txt"}>Bought</p>
-                  </li>
-                  <Row {...el} key={index} />
-                </>
-              );
+        
+        info.data.map((item, index) => {
+          if (item.buy_usd > 0 || item.sell_usd > 0) {
+            ++i;
+            if (i % 10 === 0) {
+              return (<li className="ex_list__item" id={"ex_list__item"}>
+                <p className="ex_list__txt ex_list__bold" id={"ex_list__txt"}>time</p>
+                <p className="ex_list__txt ex_list__bold" id={"ex_list__txt"}>delta</p>
+                <p className="ex_list__txt ex_list__bold" id={"ex_list__txt"}>Sold</p>
+                <p className="ex_list__txt ex_list__bold" id={"ex_list__txt"}>Bought</p>
+              </li>);
             }
-            return <Row {...el} key={index} />;
+            return <Row {...item} key={index} />;
           }
           return null;
         })

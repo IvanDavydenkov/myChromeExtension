@@ -23,6 +23,7 @@ const Chart = ({ config }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [dataChart, setDataChart] = useState("");
   const [options, setOptions] = useState("");
+  const [intervalId, setIntervalId] = useState(null);
   useEffect(() => {
     const getDataView = ({ pair, limit, interval }) => {
       const fetchData = ({ pair, limit, interval }) => {
@@ -83,12 +84,17 @@ const Chart = ({ config }) => {
           });
         
       };
-      const intervalId = setInterval(() => {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+      
+      const newIntervalId = setInterval(() => {
         fetchData(config);
       }, timeCalcToSeconds(interval));
-      fetchData(config);
+      setIntervalId(newIntervalId);
       
-      return () => clearInterval(intervalId);
+      
+      return () => clearInterval(newIntervalId);
       
     };
     getDataView(config);
